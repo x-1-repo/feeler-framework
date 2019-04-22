@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=7.3",
-        "mb_substring": "*"
+        "mb_substring": "*",
         "feeler/base": "*",
         "feeler/fl": "*"
     },
