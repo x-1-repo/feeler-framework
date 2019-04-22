@@ -1,0 +1,35 @@
+{
+    "name": "feeler",
+    "description": "Feeler - An agile full-stack Framework of PHP",
+    "homepage": "https://github.com/rickguo/feeler",
+    "type": "framework",
+    "minimum-stability": "dev",
+    "keywords": [
+        "feeler", "framework", "feeler framework"
+    ],
+    "require": {
+        "php": ">=7.3",
+        "mb_substring": "*"
+        "feeler/base": "*",
+        "feeler/fl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rickguo",
+            "email": "rickguo@feeler.top"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "feeler\\fl\\": "/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev": "1.0.0-dev"
+        }
+    }
+}
