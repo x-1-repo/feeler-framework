@@ -5,11 +5,11 @@
     "type": "framework",
     "minimum-stability": "dev",
     "keywords": [
-        "feeler", "framework", "feeler framework"
+        "feeler", "framework", "feeler-framework"
     ],
     "require": {
-        "php": ">=7.3",
-        "mb_substring": "*",
+        "php": ">=7.1",
+        "ext-mbstring": "*",
         "feeler/base": "*",
         "feeler/fl": "*"
     },
@@ -22,10 +22,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "feeler\\fl\\": "/"
-        }
+            "Feeler\\": "/"
+        },
+        "files": [
+            "Requirements/Framework/main.php"
+        ]
     },
     "autoload-dev": {
+    },
+    "config": {
+        "vendor-dir": "Requirements/Vendor",
+        "bin-dir": "Requirements/Vendor/Bin"
     },
     "extra": {
         "branch-alias": {
